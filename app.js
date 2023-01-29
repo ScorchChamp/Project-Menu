@@ -6,7 +6,7 @@ function parseTopics(topics) {
 function parseRepo(repo) {
     return `
         <div class="repo-container">
-            <a href="https://${author}.github.io/${repo.name}" target="_blank">
+            <a href="https://${author}.github.io/${repo.name}" target="_self">
                 <div class="repo">
                     <h3 class="index">Project #${repo.index}</h3>
                     <h3 class="repo-name">${repo.name}</h3>
